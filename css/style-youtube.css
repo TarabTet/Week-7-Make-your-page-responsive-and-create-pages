@@ -1,0 +1,218 @@
+body html {
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url("../images/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+   
+}
+
+header h1 {
+    color: rgb(138, 10, 10);
+    font-size: 200%;
+    text-align: center;
+    padding: 0%;
+}
+
+form {
+    margin: auto;
+    padding: 0.5em;
+    writing-mode: vertical-lr;
+    background-color: rgb(191, 211, 240);
+    float: right;
+    border-radius: 5%;
+    border-color: rgb(121, 141, 244);
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+section {
+    background-color: rgba(26, 26, 25, 0.34);
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0.3em;
+    text-align:center;
+    font-weight: 100;
+    display: flex;
+}
+
+nav li {
+    flex: 1;
+    align-self: flex-end;
+}
+main1 {
+    width: 95%;
+    background-color: rgb(242, 215, 215);
+    float: right;
+    padding: 1em;
+}
+
+main2 {
+    width: 95%;
+    background-color: rgb(131, 241, 147);
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    float: right;
+    padding: 1em;
+
+}
+
+main2 img {
+    display: inline-block;
+    margin-left: auto;
+  margin-right: auto;
+    max-block-size: 100px;
+    max-width: 70px;
+    padding: 20px;
+    border: 2px solid blue;
+    background-color: yellow;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    body {
+        background: url("../images/background1.png");      
+    }
+    
+    
+    main1 {
+        background-color: rgb(206, 30, 30);
+        font-size: smaller;
+    }
+    
+    header {
+        font-size: 5vw;
+        font-style: normal;
+    }
+    header h1 {
+        color: rgb(58, 15, 230);
+        text-align: center;
+        font-size: 150%;
+    }
+    
+    h1 {
+        font-size: 5vw;
+        font-style: normal;
+    }
+
+    nav li {
+        flex: 1;
+    }
+
+    article {
+        font-size: small;
+        font-style: italic;
+    }
+    iframe {
+        width: 80%;
+    }
+    form {
+        scale: 75%;
+     
+        writing-mode: vertical-lr;
+        background-color: rgb(191, 211, 240);
+        float: right;
+    }
+    body img {
+        width: 30%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    main1 {
+        background-color: rgb(65, 30, 206);
+      
+    }
+    header h1 {
+        text-align: center;
+        font-size: 300%;
+    }
+    body img {
+        width: 45%;
+    }
+    }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    main1 {
+        background-color: rgb(206, 103, 30);
+      
+    }
+    header h1 {
+        margin-top: -40px;
+        font-size: 250%;
+    }
+    body img {
+        width: 40%;
+    }
+    }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    main1 {
+        background-color: rgb(30, 206, 89);
+      
+    }
+    header h1 {
+        margin-top: -50px;
+        font-size: 300%;
+    }
+    
+    form {
+        margin: 2em;
+        scale: 120%;
+    }
+    }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    main1 {
+        background-color: rgb(191, 206, 30);
+      
+    }
+    header h1 {
+        font-size: 500%;
+        margin-top: -100px;
+    }
+    body img {
+        width: 30%;
+    }
+    form {
+        margin: 3em;
+        scale: 150%;
+    }
+    }
